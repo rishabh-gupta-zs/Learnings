@@ -38,13 +38,14 @@
 
 ![Alt text](./assets/image-3.png)
 
-
+```java
     class A{  
     int a=40;//non static  
     public static void main(String args[]){  
         System.out.println(a);  // will give error
     }  
-    }        
+    }   
+```
 
 ## `this`
 - this is a reference variable that refers to the current object.  
@@ -86,7 +87,7 @@ Importance :
 - For Method Overriding (so runtime polymorphism can be achieved).
 - For Code Reusability.             
 ```java
-class Subclass-name extends Superclass-name  {  //methods and fields  }  
+class Subclass-name extends Superclass-name  {  /*methods and fields*/  }  
 ```
 
 ### `Types of Inheritance`
