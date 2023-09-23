@@ -138,3 +138,21 @@ It can call without creating object of class; Note- Its not require that all met
     // 20
 ```
 
+#### `static Methode`
+```java
+class MyClass{
+    static {
+        System.out.println("static block");
+    }
+}
+public class Main
+{
+    public static void main(String[] args){
+       //
+       MyClass myClass1 =new MyClass();
+       MyClass myClass2 =new MyClass();
+       MyClass myClass3 = new MyClass();
+    }                                       
+}  
+// will print static block only one time
+```
